@@ -1,0 +1,913 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ body{
+     position: relative;
+     font-family: "Exemplar-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+/* start navbar */
+header .navbar{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color:#dbd8d2 ;
+    z-index: 10;
+    color:#f57367;
+}
+
+
+
+header .navbar .left img {
+    width: 265px;
+    padding: 10px;
+    
+}
+header .navbar .right li {
+    list-style: none;
+    FONT-SIZE: 16px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 9px;
+    margin-top: 35px;
+}
+
+
+
+header .navbar .right li:hover{
+    color: #0b406b;
+    cursor: pointer;
+}
+/* header .navbar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color:#dbd8d2;
+    z-index: 10;
+    color:#f57367;
+    
+}  
+
+
+
+header .navbar .left img {
+    width: 265px;
+    padding: 10px;
+    
+}
+
+header .navbar .right ul {
+   
+    margin-top: 38px;
+}
+header .navbar .right li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+header .navbar .right li:hover{
+    color: #0b406b;
+   
+
+} */
+
+
+
+
+
+
+
+
+/* start background home page */
+ body .home{
+     width: 100%;
+     height: 660px;
+     position: relative;
+      
+ }
+ body .home img {
+    width: 100%;
+    height: 660px;
+    background-size: cover;
+}
+body .home .layer{
+    width: 100%;
+    height: 660px;
+    background-color: #0303036b;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    
+    
+}
+body .home  .layer .words{
+     text-align: center;
+    color: whitesmoke;
+    
+}
+body .home  .layer .words span{
+    color:#f57367eb;
+    font-size: 50px;
+    font-family: cursive;
+}
+body .home  .layer .words h1 {
+    font-size: 30px;
+    padding: 25px;
+    
+}
+body .home  .layer .words p{
+    color: #f57367eb;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+/* start section two */
+
+body .about h2 {
+    text-align: center;
+    margin-top: 85px;
+    color: #0b406b;
+    font-weight: 800;
+}
+
+body .about .boxses {
+    display: flex;
+}
+body .about .box {
+    height: auto;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+body .about .box img{
+     margin-top:35;
+    width: 105px;
+    height: 73px;
+    
+}
+body .about .box h3 {
+    color:#f57367;
+    padding: 15px;
+}
+body .about .box p {
+    color: #0b406b;
+    font-size: medium;
+    padding: 0px 40px;
+}
+
+
+
+
+
+
+
+
+
+/* start section 3 */
+body .sec-3{
+    margin-top: 100px;
+    background-color: #f4f4f4;
+}
+
+body .sec-3 .tittle h3 {
+    text-align: center;
+    margin-top: 11px;
+    /* color: #164843; */
+    color: #0b406b;
+    font-size: 37px;
+    font-weight: 600;
+    
+}
+body .sec-3  p{
+    color: #0b406b;
+    
+}
+.conts {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+body .sec-3 .cont {
+    width: auto;
+    height: auto;
+    text-align: justify;
+    margin: 60 0px 60px 60px;
+    margin-top: 40px;
+}
+body .sec-3 .cont img {
+    width: 260px;
+    height: 190px;
+
+
+}
+body .sec-3 .cont h4 {
+    width: 76%;
+    color: #f57367;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+body .sec-3 .cont p {
+    width: 76%;
+    height: auto;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* start the center background image */
+body .center {
+    position: relative;
+    
+}
+
+body .center img {
+    width: 100%;
+    height: 465px;
+}
+
+body .center .layer {
+    width: 100%;
+    background-color: #f57367e0;
+    
+    height: 465px;
+    position: absolute;
+    
+    top: 0;
+    
+
+}
+body .center .services {
+    display: flex;
+    justify-content: space-evenly;
+}
+body .center .layer .tittle h3{
+    text-align: center;
+    margin-top: 85px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+body .center .service {
+    text-align: center;
+    width: 20%;
+    height: auto;
+    color: whitesmoke;
+    margin: 60px 29px 0px;
+
+}
+    
+body .center .layer .service  img{
+    width: 60px;
+    height: 60px;
+}
+body .center .layer .service  h4 {
+    padding: 20px;
+}
+body .center .layer .service  p{
+    font-size: small;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* start section five */
+body .sec-5 h2 {
+    text-align: center;
+    margin-top: 85px;
+    color: #0b406b;
+    font-size: xx-large;
+}
+body .sec-5 .boxses{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+body .sec-5 .box {
+    width: 31.3%;
+    height: 400px;
+    padding: 28ox;
+    margin: 1%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+body .sec-5 h3{
+    padding: 8px;
+    font-size: medium;
+    color: #f57367eb;
+}
+body .sec-5 p{
+    color: #0b406b;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* start  the footer */
+footer{
+    width: 100%;
+    height: 408px;
+    margin-top: 90px;
+    background-color: #dbd8d2;
+    
+}
+.footer{
+    padding: 120px;
+}
+
+body footer img {
+    width: 50px;
+    height: 40px;
+    margin-top: 260px;
+}
+body footer ul {
+    font-size: x-small;
+    
+}
+
+body footer li{
+    
+    display: inline-block;
+    padding: 3px;
+}
+body footer p {
+    font-size: x-small;
+    margin: 10px 0px;
+    color: #0b406b;
+    
+}
+body footer a{
+    font-size: x-small;
+    color: #d5645a;
+    
+    
+}
+.fab, .far {
+    font-weight: 400;
+    color: #4F4E4D;
+    margin-top: 30px;
+    padding: 4px;
+    color: #0b2c47;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////start responsive////////////////////////////////////////////////// */
+@media(max-width:1024px){
+    header .navbar .right li {
+        
+        FONT-SIZE: 18px;
+        
+    }
+    body .home .layer .words h1 {
+        font-size: 35px;
+        
+    }
+    body .home .layer .words p {
+        
+        font-size: x-large;
+    }
+    body .about h2 {
+        
+        font-size: xx-large;
+    }
+
+    body .about .box img {
+        margin-top: 21px;
+        width: 113px;
+        height: 86px;
+    }
+    body .about .box p {
+        
+        font-size: medium;
+        padding: 0px 25px;
+    }
+    body .sec-3 .cont img {
+        width: 224px;
+        height: 187px;
+    }
+    body .sec-3 .cont h4 {
+        
+        font-size: 15px;
+       
+    }
+    body .center .service {
+        text-align: center;
+        width: 20%;
+        height: auto;
+        color: whitesmoke;
+        margin: 40px 25px 0px;
+    }
+    body .center .layer .service h4 {
+        padding: 20px;
+        font-size: medium;
+    }
+    body .center .layer .service p {
+        font-size: medium;
+    }
+    body .sec-5 h2 {
+        text-align: center;
+        margin-top: 85px;
+        color: #0b406b;
+        font-size: xx-large;
+    }
+    body .sec-5 h3 {
+        
+        font-size: larger;
+        
+    }
+    body .sec-5 p {
+       
+        font-size: larger;
+    }
+    .footer {
+        padding: 60px;
+        font-size: xxx-large;
+    }
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    header .navbar {
+        display: block;
+        overflow: auto;
+        height: 90px;
+        
+    }
+    header .navbar .right li {
+        FONT-SIZE: 14px;
+    }
+    body .home .layer {
+        
+        justify-content: center;
+        
+    }
+    
+    body .home .layer .words h1 {
+        font-size: 28px;
+    }
+    body .home .layer .words span {
+        font-size: 46px;
+    }
+    
+    body .about .boxses {
+        display: block;
+    }
+    
+    body .about h2 {
+        font-size: 47px;
+        text-align: center;
+    }
+    body .about .box img {
+        width: 180px;
+        height: 126px;
+    }
+    body .about .box h3 {
+        font-size: 32px;
+    }
+    body .about .box p {
+        font-size: 30px;
+        padding: 0px 70px 0px 70px;
+    }
+    
+    body .sec-3 .tittle h3 {
+        text-align: center;
+        
+    }
+    .conts {
+        display: block;
+        margin-left: 25%;
+    }
+    body .sec-3 .cont img {
+        width: 291px;
+        height: 227px;
+    }
+    
+    body .sec-3 .cont h4 {
+        font-size: 21px;
+    }
+    body .sec-3 .cont p {
+        width: 58%;
+        font-size: larger;
+    }
+    body .center .service {
+        
+        margin: 40px 0px 0px;
+    }
+    body .center .layer .service img {
+        width: 50px;
+        height: 50px;
+    }
+    body .center .layer .service h4 {
+        font-size: 14px;
+    }
+    body .center .layer .service p {
+        font-size: 15px;
+    }
+    body .sec-5 p {
+        font-size: 19px;
+    }
+    
+
+ }
+
+
+ 
+
+
+@media(max-width:414px){
+    body .home .layer .words span {
+        font-size: 40px;
+    }
+    body .home .layer .words h1 {
+        font-size: 22px;
+    }
+    body .home .layer .words p {
+        font-size: large;
+    }
+    body .about .box h3 {
+        font-size: 30px;
+    }
+    body .about h2 {
+        font-size: 39px;
+        text-align: center;
+    }
+    body .about .box img {
+        width: 147px;
+        height: 106px;
+    }
+    body .about .box h3 {
+        font-size: 25px;
+    }
+    body .about .box p {
+        font-size: 19px;
+        padding: 0px 70px 0px 70px;
+    }
+    .conts {
+        display: block;
+        
+    }
+    body .sec-3 .cont {
+        
+        margin: 60px 0px 60px 0px;
+        
+    }
+    body .sec-3 .cont img {
+        width: 211px;
+        height: 194px;
+    }
+    body .sec-3 .cont h4 {
+        font-size: 17px;
+    }
+    body .sec-3 .cont p {
+        width: 73%;
+        font-size: small;
+    }
+    body .center .layer .tittle h3 {
+        
+        margin-top: 33px;
+        font-size: 21px;
+        
+    }
+    body .center .layer .service img {
+        width: 40px;
+        height: 40px;
+    }
+    body .center .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    body .center .service {
+        width: 36%;
+    }
+    body .center .layer .service h4 {
+        font-size: 12px;
+    }
+    body .center .layer .service p {
+        font-size: 11px;
+    }
+    body .sec-5 h2 {
+        
+        font-size: x-large;
+    }
+    body .sec-5 .box {
+
+        margin-left: 24%;
+        
+    }
+     body .sec-5 .boxses {
+        display: block;
+        
+    }
+     body .sec-5 .box {
+     
+     margin-left: 0px;
+     
+     width: auto;
+     }
+     
+     body .sec-5 p {
+         font-size: 22px;
+         padding: 0px 45px;
+     }
+}
+
+
+
+
+
+@media(max-width:411px){
+    body .home .layer .words span {
+        font-size: 37px;
+    }
+    body .home .layer .words h1 {
+        font-size: 20px;
+    }
+    body .home .layer .words p {
+        font-size: small;
+    }
+    body .center .layer .service h4 {
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width:375px){
+    body .home .layer .words h1 {
+        font-size: 22px;
+    }
+    body .home .layer .words span {
+        font-size: 40px;
+    }
+    body .home .layer .words p {
+        font-size: medium;
+    }
+    body .about .box h3 {
+        font-size: 30px;
+    }
+    body .about h2 {
+        font-size: 39px;
+        text-align: center;
+    }
+    body .about .box img {
+        width: 147px;
+        height: 106px;
+    }
+    body .about .box h3 {
+        font-size: 25px;
+    }
+    body .about .box p {
+        font-size: 19px;
+        padding: 0px 70px 0px 70px;
+    }
+    .conts {
+        display: block;
+        
+    }
+    body .sec-3 .cont {
+        
+        margin: 60px 0px 60px 0px;
+        
+    }
+    body .sec-3 .cont img {
+        width: 211px;
+        height: 194px;
+    }
+    body .sec-3 .cont h4 {
+        font-size: 17px;
+    }
+    body .sec-3 .cont p {
+        width: 73%;
+        font-size: small;
+    }
+    body .center .layer .tittle h3 {
+        
+        margin-top: 33px;
+        font-size: 21px;
+        
+    }
+    body .center .layer .service img {
+        width: 40px;
+        height: 40px;
+    }
+    body .center .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    body .center .service {
+        width: 36%;
+    }
+    body .center .layer .service h4 {
+        font-size: 11px;
+    }
+    body .center .layer .service p {
+        font-size: 10px;
+    }
+    body .sec-5 h2 {
+        
+        font-size: x-large;
+    }
+    body .sec-5 .box {
+
+        margin-left: 24%;
+        
+    }
+     body .sec-5 .boxses {
+        display: block;
+        
+    }
+     body .sec-5 .box {
+     
+     margin-left: 0px;
+     
+     width: auto;
+     }
+     
+     body .sec-5 p {
+         font-size: 22px;
+         padding: 0px 45px;
+     }
+    
+ }
+
+
+
+
+
+
+ @media(max-width:360px){
+    body .home .layer .words span {
+        font-size: 37px;
+    }
+    body .home .layer .words h1 {
+        font-size: 20px;
+    }
+    body .home .layer .words p {
+        font-size: small;
+    }
+    body .center .layer .service h4 {
+        font-size: 13px;
+    }
+    
+    body .about .box h3 {
+        font-size: 19px;
+    }
+    body .about .box p {
+        font-size: 18px;
+        padding: 0px 70px 0px 70px;
+    }
+    body .center .layer .service h4 {
+        font-size: 11px;
+    }
+    body .sec-5 h3 {
+        font-size: small;
+    }
+    body .sec-5 p {
+        font-size: 20px;
+        padding: 0px 45px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:320px){
+    body .about h2 {
+        font-size: 33px;
+        text-align: center;
+    }
+    body .about .box img {
+        width: 117px;
+        height: 88px;
+    }
+    body .about .box h3 {
+        font-size: 21px;
+    }
+    body .about .box p {
+        font-size: 18px;
+        padding: 0px 35px 0px 35px;
+    }
+    body .sec-3 .tittle h3 {
+        
+        font-size: x-large;
+    }
+    body .sec-3 .cont img {
+        width: 159px;
+        height: 162px;
+    }
+    body .sec-3 .cont h4 {
+        font-size: 12px;
+    }
+    body .sec-3 .cont p {
+        width: 73%;
+        font-size: small;
+    }
+    body .center .layer .service img {
+        width: 30px;
+        height: 30px;
+    }
+    body .center .layer .service h4 {
+        font-size: 9px;
+    }
+    body .center .layer .service p {
+        font-size: 10px;
+    }
+    body .sec-5 p {
+        font-size: 18px;
+       
+    }
+    .footer {
+        
+        font-size: small;
+    }
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
